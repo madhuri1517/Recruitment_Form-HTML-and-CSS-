@@ -1,0 +1,96 @@
+<div id="outside">
+<form id="recruitment-form" action="/my-handling-form-page" method="post">
+
+<!-- ---------------------- External CSS----------------------- -->
+<!-- ----- It can be add by using your fie location or link of the css file.Most important the file should contain the .css extension --> 
+
+<link rel="stylesheet" href="C:\Users\R&D Infotech Server\Desktop\HTML and CSS\code2.css">
+  <h1 id="title">Career Oppertunities in Capgemini</h1>
+  <fieldset>
+  <p id="description"><b>A global leader in consulting, technology services and digital transformation, Capgemini is at the forefront of innovation to address the entire breadth of client's opportunities in the evolving world of cloud, digital and platforms.</b></p>
+  </fieldset>
+  <!-- ------------------Personal Details---------------------------- -->
+  
+    <!--  <legend><b>Personal Details</b></legend>  -->
+	
+    <p> </p>
+	<div>
+      <label id="name-label" for="name">Name:</label>
+      <input type="text" required id="name" name="user_name" placeholder="Enter name here">   
+	  </div>
+	  <p> </p`>
+    <div>
+      <label for="address-label">Address:</label>
+      <input type="Address" id="address" name="Address" placeholder="Enter address here">   
+	  </div>
+	  <p> </p>
+    <div>
+      <label id="email-label" for="Email">Email:</label>
+      <input type="email" required id="email" name="user_email" placeholder="Enter email here">   
+	  </div>
+	  <p> </p>
+    <div>
+      <label id="number-label" for="phone">Phone Number:</label>
+      <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" >  
+	  </div>
+    <p> </p>
+    <!-- ------------------Radio Buttons-------------------------------- -->
+    <div>
+      <label for="qualification">Qualification</label>
+      <p>
+        <input type="radio" name="qualification" value="it" > BE/ B.Tech in Information Technology<br>
+        <input type="radio" name="qualification" value="electrical"> BE/ B.Tech in Electrical<br>
+        <input type="radio" name="qualification" value="electronic"> BE/ B.Tech in Electronic<br>
+		<input type="radio" name="qualification" value="extc"> BE/ B.Tech in Electronic and Telecommunication<br>
+		<input type="radio" name="qualification" value="computer"> BE/ B.Tech in Computer Science<br>
+      </p>
+    </div>
+    <label for="date-label">Year of Passing:</label>
+    <input type="date" name="passing_date">
+	<p></p>
+	<div>
+      <label id="year_experience" for="year">Year of Experience:</label>
+      <input type="number" id="year_experience" name="user_experience" placeholder="Experience in numbers" >  
+	  </div>
+	<p></p>
+	<div>
+      <label id="current_organization" for="company">Name of Current Organization:</label>
+      <input type="text" id="current_organization" name="user_organization" placeholder="Enter name of Company" >  
+	  </div>
+	  
+	<p></p>
+	<div>
+      <label id="role_experience" for="role">Role of Experience:</label>
+      <input type="text" id="role_experience" name="user_role" placeholder="Role of Experience" >  
+	  </div>
+	
+	<p></p>
+	<div>
+      <label id="current_ctc" for="ctc">Current CTC:</label>
+      <input type="number" id="current_ctc" name="user_ctc" placeholder="Enter in number" >  
+	  </div>
+    <p></p>
+	<div>
+      <label id="additional_certificate" for="certificate">Additional_Certificate(If Any):</label>
+      <input type="text" id="additional_certificate" name="user_certificate" placeholder="Name the Certificate" >  
+	  </div>
+	<p></p>
+  
+
+  <!-- --------------------Text Areas------------------------------ -->
+  
+    <div>
+      <label for="msg"></label>
+      <p> Write something about yourself in 200 words</p>
+      <textarea id="msg" name="user_message" rows="10" cols="50" placeholder="Enter Text Here"></textarea>   </div>
+    
+    <p>Upload your updated Resume:
+      <button>Attach Files</button></p>
+
+
+  <div id="submitbutton">
+    <button type="submit" id="submit">Submit</button>   
+	</div>
+
+</form>
+ </div>
